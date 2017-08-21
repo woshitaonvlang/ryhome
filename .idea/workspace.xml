@@ -12,11 +12,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="551">
-              <caret line="310" column="44" lean-forward="true" selection-start-line="310" selection-start-column="44" selection-end-line="310" selection-end-column="44" />
+            <state relative-caret-position="485">
+              <caret line="316" column="25" lean-forward="true" selection-start-line="316" selection-start-column="25" selection-end-line="316" selection-end-column="25" />
               <folding>
                 <element signature="n#style#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -29,6 +29,16 @@
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#0;n#div#2;n#div#0;n#div#0;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/index.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="277">
+              <caret line="1002" column="27" lean-forward="true" selection-start-line="1002" selection-start-column="27" selection-end-line="1002" selection-end-column="27" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -55,12 +65,12 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/js/index.js" />
-        <option value="$PROJECT_DIR$/css/index.css" />
         <option value="$PROJECT_DIR$/huaban/index.html" />
         <option value="$PROJECT_DIR$/zhipai/index.html" />
         <option value="$PROJECT_DIR$/dazi/index.js" />
         <option value="$PROJECT_DIR$/huaban/js/index.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/index.css" />
       </list>
     </option>
   </component>
@@ -102,92 +112,32 @@
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="myhome" />
+              <option name="myItemId" value="ryhome" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="myhome" />
+              <option name="myItemId" value="ryhome" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="myhome" />
+              <option name="myItemId" value="ryhome" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="myhome" />
+              <option name="myItemId" value="ryhome" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="zhipai" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="myhome" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="myhome" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="video" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="myhome" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="myhome" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="huaban" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="myhome" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="myhome" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="huaban" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="myhome" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="myhome" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dazi" />
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -308,17 +258,18 @@
       <workItem from="1502464323644" duration="463000" />
       <workItem from="1502466214118" duration="1010000" />
       <workItem from="1503318917172" duration="533000" />
+      <workItem from="1503326674689" duration="130000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29883000" />
+    <option name="totallyTimeSpent" value="30013000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="1924" height="1038" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13189189" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13351351" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -379,9 +330,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1210">
           <caret line="55" column="0" lean-forward="true" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -389,7 +337,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5258">
           <caret line="239" column="16" lean-forward="false" selection-start-line="239" selection-start-column="4" selection-end-line="239" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -397,7 +344,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1320">
           <caret line="60" column="51" lean-forward="true" selection-start-line="60" selection-start-column="51" selection-end-line="60" selection-end-column="51" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -432,7 +378,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5258">
           <caret line="239" column="16" lean-forward="false" selection-start-line="239" selection-start-column="4" selection-end-line="239" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -467,7 +412,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5258">
           <caret line="239" column="16" lean-forward="false" selection-start-line="239" selection-start-column="4" selection-end-line="239" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -502,7 +446,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5258">
           <caret line="239" column="16" lean-forward="false" selection-start-line="239" selection-start-column="4" selection-end-line="239" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -529,7 +472,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5258">
           <caret line="239" column="16" lean-forward="false" selection-start-line="239" selection-start-column="4" selection-end-line="239" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -564,7 +506,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="7170">
           <caret line="239" column="16" lean-forward="false" selection-start-line="239" selection-start-column="4" selection-end-line="239" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -592,7 +533,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5975">
           <caret line="239" column="16" lean-forward="false" selection-start-line="239" selection-start-column="4" selection-end-line="239" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -620,7 +560,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5975">
           <caret line="239" column="16" lean-forward="false" selection-start-line="239" selection-start-column="4" selection-end-line="239" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -648,7 +587,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5975">
           <caret line="239" column="16" lean-forward="false" selection-start-line="239" selection-start-column="4" selection-end-line="239" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -675,7 +613,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5975">
           <caret line="239" column="16" lean-forward="false" selection-start-line="239" selection-start-column="4" selection-end-line="239" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -702,7 +639,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5975">
           <caret line="239" column="16" lean-forward="false" selection-start-line="239" selection-start-column="4" selection-end-line="239" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -738,7 +674,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5258">
           <caret line="239" column="16" lean-forward="false" selection-start-line="239" selection-start-column="4" selection-end-line="239" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -768,9 +703,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1100">
           <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -778,7 +710,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4136">
           <caret line="188" column="51" lean-forward="false" selection-start-line="188" selection-start-column="51" selection-end-line="188" selection-end-column="51" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -786,7 +717,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
           <caret line="5" column="36" lean-forward="false" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -794,9 +724,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
           <caret line="20" column="29" lean-forward="false" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -804,7 +731,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
           <caret line="483" column="65" lean-forward="false" selection-start-line="483" selection-start-column="65" selection-end-line="483" selection-end-column="65" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -812,22 +738,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="7" column="40" lean-forward="false" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1011" column="17" lean-forward="false" selection-start-line="1011" selection-start-column="17" selection-end-line="1011" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="310" column="44" lean-forward="true" selection-start-line="310" selection-start-column="44" selection-end-line="310" selection-end-column="44" />
+        <state relative-caret-position="485">
+          <caret line="316" column="25" lean-forward="true" selection-start-line="316" selection-start-column="25" selection-end-line="316" selection-end-column="25" />
           <folding>
             <element signature="n#style#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -840,6 +757,14 @@
             <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#0;n#div#2;n#div#0;n#div#0;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="1002" column="27" lean-forward="true" selection-start-line="1002" selection-start-column="27" selection-end-line="1002" selection-end-column="27" />
+          <folding />
         </state>
       </provider>
     </entry>
