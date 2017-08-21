@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>打字游戏</title>
+    <script src="index.js"></script>
+</head>
+<style>
+    *{
+        margin:0;
+        padding:0;
+        list-style: none;
+    }
+    body{
+        width:100%;
+        height:100%;
+        background-image: url('img/B.jpg');
+        background-size:cover;
+    }
+    .box{
+        position: absolute;
+        top:100px;
+        left:20px;
+    }
+    .box>div{
+        width:100px;
+        padding: 5px 15px;
+        background: yellowgreen;
+        color:white;
+        font-size: 18px;
+        font-family: 微软雅黑;
+        margin-bottom: 10px;
+        border-radius: 40px;
+        text-align: center;
+        box-shadow: 0 2px 5px 3px #fff inset;
+    }
+    .box>div:nth-child(1){
+        width:180px;
+        height:34px;
+        padding:0 0 0 35px;
+        position: relative;
+        text-align: left;
+        line-height:34px;
+    }
+    .sm{
+        position:absolute;
+        top:8px;
+        left:80px;
+        width:98px;
+        height:18px;
+        border:1px solid #fff;
+        display: inline-block;
+        border-radius:30px;
+    }
+    .sm1{
+        position:absolute;
+        width:98px;
+        height:18px;
+        top:0;
+        left:0;
+        background:red;
+        border-radius: 30px;
+        display: inline-block;
+    }
+    @keyframes yun {
+        from{
+            transform: translateX(-60px);
+        }
+        to{
+            transform: translateX(60px);
+        }
+    }
+</style>
+<body>
+<div class="cloud"></div>
+<div class="box">
+    <div>生命 &nbsp;<span class="sm"><span class="sm1"></span></span></div>
+    <div>分数 &nbsp;<span class="score">0</span></div>
+    <div>关卡 &nbsp;<span class="guanqia">1</span></div>
+</div>
+</body>
+</html>
+<script src="index.js"></script>
+<script>
+    let game=new Game();
+    game.start();
+
+//console.log(String.fromCharCode(90))
+</script>

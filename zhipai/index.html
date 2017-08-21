@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>纸牌游戏</title>
+    <script src="./js/jquery-3.2.1.js"></script>
+</head>
+<style>
+    *{
+        margin:0;
+        padding:0;
+        list-style: none;
+    }
+.table{
+    width:750px;
+    height:720px;
+    margin:10px auto;
+    position: relative;
+    background-image:url('img/B.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.table .poke{
+    width:90px;
+    height:130px;
+    position: absolute;
+    left:325px;
+    top:0;
+    background-size:90px 130px;
+    border: 3px solid rgba(0,0,0,0);
+    opacity: 0;
+}
+.active{
+    border: 3px solid blue;
+}
+    button{
+        padding:5px 10px;
+        background: plum;
+        color:white;
+        position: absolute;
+        left:345px;
+    }
+    .left{
+        bottom:40px;
+    }
+    .right{
+        bottom:90px;
+    }
+</style>
+<body>
+<div class="table">
+    <button class="right">向右</button>
+    <button class="left">向左</button>
+</div>
+</body>
+</html>
+<script>
+    $(function () {
+//        52  huase shuzi 不重复  花色  数字
+        let poke=[];
+        let biao={};
+        let left=$('.left');
+        let right=$('.right');
+        let dir={
+            '1':'A',
+            '2':'2',
+            '3':'3',
+            '4':'4',
+            '5':'5',
+            '6':'6',
+            '7':'7',
+            '8':'8',
+            '9':'9',
+            '10':'T',
+            '11':'J',
+            '12':'Q',
+            '13':'K'
+        };
+//        hearts：红心   diamonds:方块    spades：黑桃    clubs:梅花
+//        poke=[{huase:c，shuzi:5},{huase:d，shuzi:2}........]
+//        biao={h_5:true,s_5:true.........}
+        let color=['h','c','s','d']
+        for(let i=0;i<52;i++){
+            let huase=color[Math.floor(Math.random()*4)];
+            let shuzi=Math.floor(Math.random()*13+1);
+//            去重
+            while(biao[huase+'_'+shuzi]){
+                huase=color[Math.floor(Math.random()*4)];
+                shuzi=Math.floor(Math.random()*13+1);
+            }
+            biao[huase+'_'+shuzi]=true;
+            poke.push({huase,shuzi})
+        }
+//          记录当前第几张牌
+        let index=0;
+            for(let i=0;i<7;i++){
+                for(let j=0;j<=i;j++){
+                    let item=poke[index];
+                    //   item=[{huase:c，shuzi:5},{huase:d，shuzi:2}........
+//                    url(img/c5.jpg)
+                    index++;
+                    let src='url(img/'+item.huase+dir[item.shuzi]+'.jpg)';
+                    let lefts=325-50*i+100*j;
+                    let tops=70*i;
+                    $('<div>')
+                        .addClass('poke')
+                        .css('backgroundImage',src)
+                        .delay(30*index)
+                        .data('num',item.shuzi)
+                        .prop('id',i+'--'+j)
+                        .animate({left:lefts,top:tops,opacity:1})
+                        .appendTo('.table');
+                }
+            }
+            for(;index<poke.length;index++){
+                let item=poke[index];
+                let src='url(img/'+item.huase+dir[item.shuzi]+'.jpg)';
+                let lefts=125;
+                let tops=570;
+                $('<div>').addClass('poke zuo')
+                    .css('backgroundImage',src)
+                    .data('num',item.shuzi)
+                    .delay(30*index)
+                    .animate({left:lefts,top:tops,opacity:1})
+                    .appendTo('.table');
+            }
+
+            let first=null;
+            $('.poke').click(function () {
+                let coords=$(this).prop('id').split('--');
+//                '1--1' '2--1' '2--2' $(#2--2)
+                let ele=$(`#${parseInt(coords[0])+1}--${parseInt(coords[1])+1}`);
+                let ele1=$(`#${parseInt(coords[0])+1}--${parseInt(coords[1])}`);
+                if(ele1.length==1||ele1.length==1){
+                    return ;
+                }
+                $(this).toggleClass('active');
+                if($(this).hasClass('active')){
+                    $(this).stop().animate({top:'-=20'})
+                }else{
+                    $(this).stop().animate({top:'+=20'})
+                }
+                if(!first){
+                    first=this;
+                    let sum=$(first).data('num')
+                    if(sum==13){
+                        $('.active')
+                            .animate({top:0,left:650},function () {
+                                $(this) .remove()
+                                first=null;
+                            })
+                    }
+                }else{
+//                    判断是不是13
+                    let sum=$(first).data('num')+$(this).data('num')
+        if(sum==13){
+                        $('.active')
+                            .animate({top:0,left:650},function () {
+                                $(this) .remove()
+                            })
+                    }else{
+                        $('.active').animate({top:'+=20'}).removeClass('active');
+                    }
+                    first=null;
+                }
+
+            });
+
+//         下面的动画   right  left
+            let z=1;
+            right.click(function () {
+                z++;
+                $('.zuo:last')
+                    .removeClass('zuo')
+                    .addClass('you')
+                    .css('zIndex',z)
+                    .animate({left:'+=400'})
+            });
+
+            left.click(function () {
+               let you=$('.you');
+               if(you.length==0){
+                   return;
+               }
+               for(let i=you.length-1;i>=0;i--){
+                   $(you[i])
+                       .delay(100*i)
+                       .animate({left:'-=400'},function () {
+                           $(this) .css('zIndex',0)
+                       })
+                       .addClass('zuo')
+                       .removeClass('you')
+               }
+            })
+
+
+
+
+
+    })
+</script>

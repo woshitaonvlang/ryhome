@@ -1,0 +1,191 @@
+
+*{
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+body,html{
+    width:100%;
+    height:100%;
+    background-image: url("../img/back2.jpg");
+    /*-webkit-background-size:;*/
+    background-size:cover;
+    background-position:center;
+}
+i{
+    color:#fff;
+    cursor: pointer;
+}
+.top{
+    width:100%;
+    height:80%;
+    text-align: center;
+    color: #fff;
+    padding-top: 50px;
+}
+.song{
+    font-size:24px;
+    margin-bottom:20px;
+}
+.author{
+    font-size:22px;
+    margin-bottom:20px;
+}
+.lyrics>li{
+    font-size:18px;
+    margin-bottom: 10px;
+}
+audio{
+    display: none;
+}
+.bottom{
+    position: absolute;
+    bottom:50px;
+    left:0;
+    width:100%;
+    height: 50px;
+    background:rgba(0,0,0,0.5);
+    color: #fff;
+}
+.left{
+    width:17%;
+    float: left;
+    line-height: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+.left .pre{
+    font-size: 40px;
+    line-height: 55px;
+}
+.play{
+    font-size: 40px;
+}
+.next{
+    font-size: 40px;
+    line-height: 55px;
+}
+.middle{
+    width:70%;
+    height:100%;
+    float: left;
+    color: #fff;
+}
+.middle img{
+    width:50px;
+    height:50px;
+    float: left;
+}
+.middle .mright{
+    width:calc(100% - 50px);
+    float: right;
+}
+.middle .mshang{
+    width:100%;
+    height:20px;
+    /*background: purple;*/
+    padding:0px 10px ;
+    box-sizing: border-box;
+}
+.ming{
+    float: left;
+}
+.middle .timee{
+    display: flex;
+    float:right;
+}
+
+
+.middle .mxia{
+    height:10px;
+    background: #80ADD2;
+    border-radius: 10px;
+    margin: 10px ;
+    cursor: pointer;
+    display: flex;
+}
+.jindu{
+    width:5%;
+    height:100%;
+    background: #fff;
+    border-radius: 10px;
+}
+.dot{
+    width:15px;
+    height:15px;
+    background: #fff;
+    /*background: red;*/
+    border-radius:50%;
+    margin-top:-2px;
+    margin-left:-7px;
+    box-shadow: 0px 0px 10px 5px #fff;
+}
+.right{
+    float: left;
+    display: flex;
+}
+.right>i{
+    font-size: 40px;
+    line-height: 55px;
+
+}
+.right .volume{
+    width:100px;
+    height:10px;
+    background: #80ADD2;
+    margin-top: 20px;
+    display: flex;
+    cursor: pointer;
+}
+.volumeh{
+    width:90%;
+    height:100%;
+    background: #fff;
+}
+.vdot{
+    width:13px;
+    height:13px;
+    background: #fff;
+    border-radius:50%;
+    margin:-1px 0 0 -6px;
+    box-shadow: 0px 0px 3px 1px #fff;
+}
+.hot{
+    color:red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.box1{
+    width:100px;
+    height: 20px;
+    border:2px solid blue;
+    border-radius: 10px;
+}
+.box1>.box2{
+    width:100%;
+    height: 100%;
+    background:green;
+    border-radius: 10px;
+}
+.back img{
+    width:1200px;
+    height:500px;
+
+}

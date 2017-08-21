@@ -1,0 +1,171 @@
+
+
+*{
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+body,html{
+    margin:0;
+    width:calc(100% - 120px);
+    height:100%;
+    background-image:url('../aa1.jpg');
+    background-size: 110% 100%;
+}
+.zong{
+    width: 920px;
+    height: 573px;
+    background: #fff;
+    opacity: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+.imgbox{
+    width:100%;
+    height:100%;
+    background: red;
+    /* background-image: url("../a1.jpg"); */
+    background-size: 100% 100%;
+    position: absolute;
+    top:0;
+    left:0;
+}
+.tool{
+    height:573px;
+    background: #61B9CD;
+    box-sizing: border-box;
+    position: absolute;
+    top:0;
+    left:0;
+}
+.tooltop{
+    width:120px;
+    background: #61B9CD;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: 29px;
+}
+span{
+    width:120px;
+    font-size:22px;
+    font-weight:bold;
+    background: #61B9CD;
+    margin-left:28px;
+}
+.tooltop>span:after{
+    width:10px;
+    background: red;
+}
+label{
+    width:40px;
+    height:40px;
+    border:1px solid #fff;
+    border:1px solid #000;
+    float: left;
+    text-align: center;
+    line-height: 40px;
+    font-size: 26px;
+    margin:4px;
+    background: #fff;
+}
+label:hover{
+    background: #ffc155;
+}
+.toolz{
+    width:120px;
+    background: #61B9CD;
+    padding: 10px;
+    box-sizing: border-box;
+    float: left;
+    border-top:2px solid #fff;
+    margin-top: 10px;
+}
+.toolz>input{
+    width:40px;
+    height:30px;
+    border:1px solid #fff;
+    float: left;
+    text-align: center;
+    line-height: 40px;
+    font-size: 26px;
+    margin:4px;
+    margin-top:9px;
+    margin-bottom:9px;
+}
+.you{
+    width:800px;
+    height:70px;
+    background: #61B9CD;
+    padding: 10px;
+    border-left:2px solid #fff;
+    margin-top: 10px;
+    position: absolute;
+    top:-10px;
+    left:120px;
+    box-sizing: border-box;
+}
+.screen{
+    position: relative;
+    top:50px;
+    left:120px;
+}
+canvas{
+    border:1px solid #ccc;
+    box-shadow: 0px 5px 20px 3px #ccc;
+    position: absolute;
+    top:0;
+    left:0;
+    z-index: 30;
+}
+.mask{
+    width:800px;
+    height:500px;
+    background: rgba(0,0,0,0);
+    position: absolute;
+    top:0;
+    left:0;
+    z-index: 40;
+}
+
+.eraser{
+    width:20px;
+    height:20px;
+    border:1px solid #000;
+    position: absolute;
+    top:0;
+    left:0;
+    display: none;
+}
+.clipbtn{
+    border:1px solid #000;
+    width:10px;
+    height:10px;
+    position: absolute;
+    top:0;
+    left:0;
+    display: none;
+}
+button{
+    height:26px;
+}
+img{
+    display: none;
+}
+.box{
+    width:100%;
+    height:50px;
+    background: red;
+    text-align: center;
+    line-height: 50px;
+}
+.shangchuan{
+    width:70px;
+    height:40px;
+    line-height: 100%;
+    margin:14px ;
+}
+
